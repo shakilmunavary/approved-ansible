@@ -1,0 +1,5 @@
+- name: Install Zip
+  apt:
+    name: zip
+    state: present
+    update_cache: yes
