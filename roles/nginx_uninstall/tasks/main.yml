@@ -1,0 +1,4 @@
+- name: Remove NGINX
+  apt:
+    name: nginx
+    state: absent
