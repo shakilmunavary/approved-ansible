@@ -1,0 +1,4 @@
+- name: Remove Maven
+  apt:
+    name: maven
+    state: absent
