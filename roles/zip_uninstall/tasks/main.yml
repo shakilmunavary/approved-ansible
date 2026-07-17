@@ -1,0 +1,4 @@
+- name: Remove Zip
+  apt:
+    name: zip
+    state: absent
